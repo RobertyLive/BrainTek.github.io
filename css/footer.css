@@ -1,0 +1,72 @@
+.grid-footer{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+    padding: 25px 0;
+    justify-items: center;
+}
+
+.title-footer{
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+
+
+.grid-footer li, .grid-footer span{
+    font-size: .7rem;
+}
+
+
+.livre img{
+    width: 50%;
+}
+.livre p{
+    font-size: 11px;
+}
+
+.direitos{
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 50px;
+}
+
+@media(width<410px){
+    .grid-footer{
+        gap: 0;
+    }
+}
+
+@media(width>430px){
+    .grid-footer{
+        gap: 45px;
+    }
+
+    .livre{
+        width: 30%;
+
+    }
+}
+
+@media(width>800px){
+    .grid-footer{
+        gap: 45px;
+    }
+
+    .title-footer{
+        font-size: 2rem;
+    }
+    .grid-footer li{
+        font-size: 1rem;
+    }
+    
+    .grid-footer span{
+        font-size: 1rem;
+
+    }
+    .livre{
+        width: 50%;
+
+    }
+}
