@@ -44,7 +44,7 @@
 
 
 .grid-Sobre{
-    max-width: 380px;
+    max-width: 40ch;
     margin: 0 auto;
     display: grid;
     gap: 25px;
@@ -119,7 +119,7 @@
 
 @media(width>1200px){
     .grid-devs{
-        width: 450px;
+        width: 370px;
         height: 300px;
     }
     
@@ -130,6 +130,10 @@
     .grid-devs img{
         object-fit: cover;
         height: 100%;
+    }
+
+    .text-sobre{
+       width: 90ch;
     }
 }
 
