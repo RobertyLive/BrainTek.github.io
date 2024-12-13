@@ -53,7 +53,7 @@ img {
     /* opacity: 0.3; */
 }
 
-.text-name {
+.texto-name-header {
     font-size: 2.6rem;
     max-width: 10ch;
     text-align: center;
@@ -74,8 +74,9 @@ img {
 }
 
 
+
 @media(width<340px) {
-    .text-name {
+    .texto-name-header {
         font-size: 1.5rem;
     }
 
@@ -128,7 +129,7 @@ img {
         margin-bottom: 80px;
     }
 
-    .text-name,
+    .texto-name-header,
     .decoration {
         grid-column: 2;
         justify-self: start;
@@ -167,7 +168,6 @@ img {
 
     .text-infor {
         max-width: 35ch;
-        margin: 45px;
     }
 
     .bg-header::before {
