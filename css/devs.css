@@ -18,6 +18,8 @@
     justify-self: end;
     grid-row: 1/5;
     border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
 }
 .grid-devs span{
     color: #ccc;
@@ -103,7 +105,7 @@
 
 @media(width>800px){
     .grid-devs{
-        width: 300px;
+        width: 400px;
     }
 
     .grid-container{
@@ -117,10 +119,10 @@
 
 @media(width>1200px){
     .grid-devs{
-        width: 300px;
+        width: 450px;
         height: 300px;
     }
-
+    
     .grid-container{
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -128,10 +130,6 @@
     .grid-devs img{
         object-fit: cover;
         height: 100%;
-    }
-
-    .grid-devs{
-        width: 350px;
     }
 }
 
