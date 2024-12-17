@@ -129,6 +129,7 @@ img {
         margin-bottom: 80px;
     }
 
+
     .texto-name-header,
     .decoration {
         grid-column: 2;
@@ -149,6 +150,9 @@ img {
         height: 100%;
     }
 
+    .bg-header::before{
+        display: none;
+    }
     .estrelas {
         height: auto;
         grid-row: 1;

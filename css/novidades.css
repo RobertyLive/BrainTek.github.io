@@ -10,7 +10,7 @@
 }
 
 .container-novidade{
-    background-color: #151515;
+    background-color: #151515; 
     text-align: center;
     margin-bottom: 100px;
 
@@ -68,6 +68,9 @@
 @media(width>800px){
     .grid-novidade{
         grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        width: 700px;
+        margin: auto;
     }
 }
 

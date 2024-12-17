@@ -71,70 +71,6 @@
     display: block;
 }
 
-
-
-@media(width < 340px){
-    .bg-roadmap{
-        background-image: none;
-    }
-
-    .gridRoadMap{
-        margin: 0 auto;
-    }
-    .group-01, .group-02{
-        margin: 15px;
-    }
-
-    .text-complete{
-        display: none;
-    }
-
-    .group-01 h2, .group-02 h2{
-        font-size: 1rem;
-    }
-
-    .group-01 p, .group-02 p{
-        font-size: 0.8rem;
-    }
-    .text-complete{
-        display: none;
-    }
-}
-
-@media(width>460px){
-    /* .bg-roadmap{
-        background-image: none;
-    }
-    .gridRoadMap{
-        gap: 25px;
-    }
-    .group-01, .group-02{
-        margin: 15px;
-    }
-
-    .text-complete{
-        display: none;
-    }
-
-    .group-01, .group-02{
-        width: 400px;
-        justify-content: center;
-    }
-    .group-01 h2, .group-02 h2{
-        font-size: 1.5rem;
-    }
-
-    .group-01 p, .group-02 p{
-        font-size: 0.8rem;
-        max-width: 25ch;
-    }
-
-    .group-01 p{
-        text-align: end;
-        justify-self: end;
-    } */
-}
-
 @media(width>800px){
     .gridRoadMap{
         justify-content: center;
@@ -271,7 +207,7 @@
 }
 
 
-@media (width<=440px) or (width>550px){
+@media (width<=440px) or (width>610px){
     .bg-roadmap{
         background-image: none;
     }
@@ -401,6 +337,74 @@
     }
 }
 
+@media(width>550px){
+    .level-3{
+        margin-top: 350px;
+    }
+
+    .group-02{
+        margin-top: 240px;
+    }
+
+    .group-04{
+        margin-top: 210px;
+    }
+}
+
+@media(width>560px){
+    .level-3{
+        margin-top: 350px;
+    }
+
+    .group-02{
+        margin-top: 240px;
+    }
+
+    .group-04{
+        margin-top: 260px;
+    }
+}
+
+@media(width>570px){
+    .level-3{
+        margin-top: 350px;
+    }
+
+    .group-02{
+        margin-top: 240px;
+    }
+
+    .group-04{
+        margin-top: 280px;
+    }
+}
+
+@media(width>590px){
+    .level-3{
+        margin-top: 350px;
+    }
+
+    .group-02{
+        margin-top: 240px;
+    }
+
+    .group-04{
+        margin-top: 300px;
+    }
+}
+@media(width>600px){
+    .level-3{
+        margin-top: 350px;
+    }
+
+    .group-02{
+        margin-top: 280px;
+    }
+
+    .group-04{
+        margin-top: 330px;
+    }
+}
 @media(width>800px){
     .gridRoadMap{
         justify-content: center;
